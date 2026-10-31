@@ -6,7 +6,7 @@ topology:
       kind: nokia_srlinux
       image: ghcr.io/nokia/srlinux:24.10.1
       type: ixr-d3
-      #startup-config: configs/rt-ufinet.cfg 
+      startup-config: configs/rt1.cfg 
 
     PC1:
       kind: linux
